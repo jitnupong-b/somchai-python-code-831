@@ -10,6 +10,7 @@ a = 15
 b = 4
 
 print(f"a = {a}, b = {b}")
+print("a = ", a, ", b = ", b)
 print()
 
 # Addition (+)
