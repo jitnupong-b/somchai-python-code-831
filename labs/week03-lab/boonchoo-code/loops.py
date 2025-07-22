@@ -11,16 +11,14 @@ while len(password) < 8:
     password = input("Enter a password (at least 8 characters): ")
     if len(password) < 8:
         print("Password too short! Try again.")
-print("Password accepted!")
 
+print("Password accepted!")
 
 # Example: Multiplication table
 for i in range(1, 4):  # rows
     for j in range(1, 4):  # columns
         print(f"{i} x {j} = {i*j}", end="\t")
     print()  # new line after each row
-    
-    
     
 # Break example: Find first number divisible by 7
 for num in range(1, 100):
