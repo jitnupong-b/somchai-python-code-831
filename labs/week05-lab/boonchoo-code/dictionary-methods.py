@@ -43,6 +43,5 @@ print(f"Default scores: {default_scores}")
 student_grades = {}
 student_grades.setdefault("Alice", []).append(85)
 student_grades.setdefault("Alice", []).append(92)
-student_grades.setdefault("Bob", []).append(78)
+student_grades.setdefault("Bob", 65).append(78)
 print(f"Student grades: {student_grades}")
-

@@ -21,10 +21,21 @@ mixed_dict = {
 
 # Using dict() constructor
 person = dict(name="Bob", age=25, city="Bangkok")
+person = {
+    "name": "Bob",
+    "age": 25,
+    "city": "Bangkok"
+}
 
 # From list of tuples
 pairs = [("a", 1), ("b", 2), ("c", 3)]
 dict_from_pairs = dict(pairs)
+
+dict_from_pairs = {
+    "a": 1, 
+    "b": 2,
+    "c": 3
+}
 
 print(f"Student: {student}")
 print(f"Mixed: {mixed_dict}")

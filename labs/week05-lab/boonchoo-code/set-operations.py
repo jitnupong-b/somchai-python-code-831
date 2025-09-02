@@ -32,7 +32,7 @@ print(f"Set A: {set_a}")
 print(f"Set B: {set_b}")
 
 # Union (all elements from both sets)
-union = set_a | set_b  # or set_a.union(set_b)
+union = set_a | set_b  # or set_a.union(set_b) 
 print(f"Union (A | B): {union}")
 
 # Intersection (common elements)
